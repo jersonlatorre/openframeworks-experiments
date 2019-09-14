@@ -1,2 +1,4 @@
-# openframeworks
+# Experiments
+
+Openframeworks projects.
 
