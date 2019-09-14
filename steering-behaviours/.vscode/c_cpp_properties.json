@@ -50,7 +50,6 @@
 					],
 					"browse": {
 							"limitSymbolsToIncludedHeaders": true,
-							"databaseFilename": "${workspaceRoot}/.vscode/browse.db",
 							"path": [
 									"/usr/include",
 									"/usr/local/include",
