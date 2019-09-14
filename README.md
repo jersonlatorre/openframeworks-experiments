@@ -1,4 +1,4 @@
 # Experiments
 
-Openframeworks projects.
+Compatible with openframeworks nightly builds.
 
