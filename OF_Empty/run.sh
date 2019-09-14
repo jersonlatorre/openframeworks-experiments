@@ -1,0 +1,1 @@
+if make; then make RunRelease; fi

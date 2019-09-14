@@ -1,0 +1,103 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/usr/lib/x86_64-linux-gnu/gstreamer-1.0/include",
+                "/usr/local/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/home/jerson/openframeworks/libs",
+                "/home/jerson/openframeworks/libs/openFrameworks",
+                "/home/jerson/openframeworks/addons"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.db",
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/System/Library/Frameworks",
+                    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/",
+                    "/home/jerson/openframeworks/libs",
+                    "/home/jerson/openframeworks/addons",
+                    "/home/jerson/openframeworks/libs/openFrameworks"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+							"/usr/local/include",
+							"/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+							"/usr/lib/x86_64-linux-gnu/gstreamer-1.0/include",
+							"/usr/local/include",
+							"/usr/include/x86_64-linux-gnu",
+							"/home/jerson/openframeworks/libs/openFrameworks",
+							"/home/jerson/openframeworks/libs/openFrameworks/3d",
+							"/home/jerson/openframeworks/libs/openFrameworks/app",
+							"/home/jerson/openframeworks/libs/openFrameworks/communication",
+							"/home/jerson/openframeworks/libs/openFrameworks/events",
+							"/home/jerson/openframeworks/libs/openFrameworks/gl",
+							"/home/jerson/openframeworks/libs/openFrameworks/graphics",
+							"/home/jerson/openframeworks/libs/openFrameworks/math",
+							"/home/jerson/openframeworks/libs/openFrameworks/sound",
+							"/home/jerson/openframeworks/libs/openFrameworks/types",
+							"/home/jerson/openframeworks/libs/openFrameworks/utils",
+							"/home/jerson/openframeworks/libs/openFrameworks/video",
+							"/home/jerson/openframeworks/libs/boost/include",
+							"/home/jerson/openframeworks/libs/fmodex/include",
+							"/home/jerson/openframeworks/libs/FreeImage/include",
+							"/home/jerson/openframeworks/libs/freetype/include",
+							"/home/jerson/openframeworks/libs/glm/include",
+							"/home/jerson/openframeworks/libs/json/include",
+							"/home/jerson/openframeworks/libs/pugixml/include",
+							"/home/jerson/openframeworks/libs/tess2/include",
+							"/home/jerson/openframeworks/libs/uriparser/include",
+							"/home/jerson/openframeworks/libs/utf8/include",
+							"/home/jerson/openframeworks/libs/kiss/include",
+							"/home/jerson/openframeworks/addons",
+							"/usr/include/pulse",
+							"/usr/include/cairo",
+							"/usr/include/gstreamer-1.0",
+							"/usr/include/glib-2.0"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
