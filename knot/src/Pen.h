@@ -17,4 +17,5 @@ private:
 	float wX;
 	float wY;
 	float wZ;
+	ofColor c;
 };

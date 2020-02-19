@@ -7,7 +7,7 @@
 class Drawer
 {
 private:
-	int HISTORY_LENGTH = 300;
+	int HISTORY_LENGTH = 50;
 	ofVec3f *history;
 	int hue;
 

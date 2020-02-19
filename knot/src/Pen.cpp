@@ -9,24 +9,26 @@ Pen::Pen()
 	phaseX = ofRandom(0, 100);
 	phaseY = ofRandom(0, 100);
 	phaseZ = ofRandom(0, 100);
-	wX = ofRandom(0.07, 0.12);
-	wY = ofRandom(0.07, 0.12);
-	wZ = ofRandom(0.07, 0.12);
+	wX = ofRandom(0.1, 0.3);
+	wY = ofRandom(0.1, 0.3);
+	wZ = ofRandom(0.1, 0.3);
+	c = ofColor(0);
+	c.setHsb(ofRandom(255), 255, 255);
 }
 
 void Pen::update()
 {
 	lastPosition = position;
 
-	position.x = 250 * (ofNoise(ofGetElapsedTimef() * wX + phaseX) - 0.5);
-	position.y = 250 * (ofNoise(ofGetElapsedTimef() * wY + phaseY) - 0.5);
-	position.z = 250 * (ofNoise(ofGetElapsedTimef() * wZ + phaseZ) - 0.5);
+	position.x = 400 * (ofNoise(ofGetElapsedTimef() * wX + phaseX) - 0.5);
+	position.y = 400 * (ofNoise(ofGetElapsedTimef() * wY + phaseY) - 0.5);
+	position.z = 400 * (ofNoise(ofGetElapsedTimef() * wZ + phaseZ) - 0.5);
 
 	velocity = position - lastPosition;
 }
 
 void Pen::draw()
 {
-	// ofSetColor(240, 0, 60);
-	// ofDrawSphere(position, .0);
+	ofSetColor(c);
+	ofDrawSphere(position.x, position.y, position.z, 2);
 }

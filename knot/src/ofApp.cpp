@@ -7,8 +7,7 @@ void ofApp::setup()
 	ofEnableAntiAliasing();
 	ofBackground(255);
 
-	cam.setDistance(250);
-
+	cam.setDistance(100);
 	drawers = new Drawer[N];
 }
 
@@ -21,8 +20,7 @@ void ofApp::update()
 		drawers[i].update();
 	}
 	
-
-	// cam.setPosition(drawers[0].pen.position + drawers[0].pen.velocity.getNormalized() * 10);
+	// cam.setPosition(drawers[0].pen.position - drawers[0].pen.velocity.getNormalized() * 10);
 	// cam.lookAt(drawers[0].pen.position);
 }
 
@@ -30,11 +28,11 @@ void ofApp::update()
 void ofApp::draw()
 {
 	cam.begin();
-	t += .3;
+	t += .1;
 	ofPushMatrix();
-	ofRotateXDeg(t / 4);
-	ofRotateYDeg(t / 2);
-	ofRotateZDeg(t / 6);
+	// ofRotateXDeg(t);
+	// ofRotateYDeg(t / 2);
+	// ofRotateZDeg(t);
 
 	for (int i = 0; i < N; i++)
 	{
@@ -48,7 +46,7 @@ void ofApp::draw()
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key)
 {
-	ofSaveScreen("pic-" + ofToString(roundf(ofRandom(10000))) + ".png");
+	// ofSaveScreen("pic-" + ofToString(roundf(ofRandom(10000))) + ".png");
 }
 
 //--------------------------------------------------------------
