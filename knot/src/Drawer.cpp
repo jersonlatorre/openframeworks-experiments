@@ -34,13 +34,13 @@ void Drawer::update()
 
 void Drawer::draw()
 {
-	ofSetLineWidth(3);
+	ofSetLineWidth(1);
 
 	for (int i = 0; i < HISTORY_LENGTH - 1; i++)
 	{
 		ofSetColor(0);
 		// ofSetColor(ofColor::fromHsb(hue, 255, 255));
-		// ofSetColor(ofColor::fromHsb(255 * i / HISTORY_LENGTH, 255, 255, 255 * i / HISTORY_LENGTH));
+		ofSetColor(ofColor::fromHsb(255 * i / HISTORY_LENGTH, 255, 255, 255 * i / HISTORY_LENGTH));
 		ofDrawLine(history[i], history[i + 1]);
 	}
 

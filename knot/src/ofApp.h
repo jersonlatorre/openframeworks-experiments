@@ -23,7 +23,7 @@ public:
 	void gotMessage(ofMessage msg);
 
 	ofEasyCam cam;
-	int N = 200;
+	int N = 1500;
 	Drawer *drawers;
 	float t = 0;
 };

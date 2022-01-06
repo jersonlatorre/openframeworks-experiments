@@ -30,5 +30,5 @@ void Pen::update()
 void Pen::draw()
 {
 	ofSetColor(c);
-	ofDrawSphere(position.x, position.y, position.z, 2);
+	ofDrawSphere(position.x, position.y, position.z, 1);
 }

@@ -1,71 +1,29 @@
 {
-	"configurations": [
-		{
-			"name": "Linux",
-			"includePath": [
-				"${workspaceFolder}/src/**",
-				"/usr/include",
-				"/usr/local/include",
-				"/usr/include/c++/5",
-				"/usr/include/c++/5/backward",
-				"/usr/lib/gcc/x86_64-linux-gnu/5/include",
-				"/usr/lib/x86_64-linux-gnu/glib-2.0/include",
-				"/usr/lib/x86_64-linux-gnu/gstreamer-1.0/include",
-				"/usr/local/include",
-				"/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
-				"/usr/include/x86_64-linux-gnu",
-				"/opt/of/libs/openFrameworks",
-				"/opt/of/libs/openFrameworks/3d",
-				"/opt/of/libs/openFrameworks/app",
-				"/opt/of/libs/openFrameworks/communication",
-				"/opt/of/libs/openFrameworks/events",
-				"/opt/of/libs/openFrameworks/gl",
-				"/opt/of/libs/openFrameworks/graphics",
-				"/opt/of/libs/openFrameworks/math",
-				"/opt/of/libs/openFrameworks/sound",
-				"/opt/of/libs/openFrameworks/types",
-				"/opt/of/libs/openFrameworks/utils",
-				"/opt/of/libs/openFrameworks/video",
-				"/opt/of/libs/boost/include",
-				"/opt/of/libs/cairo/include",
-				"/opt/of/libs/curl/${workspaceFolder}/.vscode/browse.dbinclude",
-				"/opt/of/libs/fmodex/include",
-				"/opt/of/libs/FreeImage/include",
-				"/opt/of/libs/freetype/include",
-				"/opt/of/libs/glew/include",
-				"/opt/of/libs/glfw/include",
-				"/opt/of/libs/glm/include",
-				"/opt/of/libs/json/include",
-				"/opt/of/libs/pugixml/include",
-				"/opt/of/libs/rtAudio/include",
-				"/opt/of/libs/tess2/include",
-				"/opt/of/libs/uriparser/include",
-				"/opt/of/libs/utf8/include",
-				"/opt/of/libs/poco/include",
-				"/opt/of/libs/kiss/include",
-				"/usr/include/x86_64-linux-gnu/c++/5",
-				"/usr/include/pulse",
-				"/usr/include/cairo",
-				"/usr/include/gstreamer-1.0",
-				"/usr/include/glib-2.0"
-			],
-			"browse": {
-				"limitSymbolsToIncludedHeaders": true,
-				"path": [
-					"/usr/include",
-					"/usr/local/include",
-					"/opt/of/libs",
-					"/opt/of/addons",
-					"/opt/of/libs/openFrameworks",
-					"${workspaceFolder}/src/**"
-				]
-			},
-			"defines": [],
-			"compilerPath": "/usr/bin/clang-6.0",
-			"cStandard": "c11",
-			"cppStandard": "c++17",
-			"intelliSenseMode": "clang-x64"
-		}
-	],
-	"version": 4
+  "configurations": [
+    {
+      "name": "Default",
+      "includePath": [
+        "${workspaceFolder}/src/**",
+        "/usr/local/include",
+        "/usr/local/include",
+        "/Users/jerson/Documents/utils/of/**"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "path": [
+          "/usr/local/include",
+          "/Users/jerson/Documents/utils/of/libs",
+          "/Users/jerson/Documents/utils/of/addons",
+          "/Users/jerson/Documents/utils/of/libs/openFrameworks",
+          "${workspaceFolder}/src/**"
+        ]
+      },
+      "defines": [],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "clang-x64"
+    }
+  ],
+  "version": 4
 }

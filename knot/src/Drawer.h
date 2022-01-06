@@ -7,14 +7,14 @@
 class Drawer
 {
 private:
-	int HISTORY_LENGTH = 50;
-	ofVec3f *history;
-	int hue;
+  int HISTORY_LENGTH = 20;
+  ofVec3f *history;
+  int hue;
 
 public:
-	Drawer();
-	Pen pen;
-	void draw();
-	void update();
-	ofVec3f getPenPosition();
+  Drawer();
+  Pen pen;
+  void draw();
+  void update();
+  ofVec3f getPenPosition();
 };

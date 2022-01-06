@@ -6,7 +6,7 @@ endif
 
 # make sure the the OF_ROOT location is defined
 ifndef OF_ROOT
-    OF_ROOT=$(realpath /opt/of)
+    OF_ROOT=$(realpath /Users/jerson/Documents/utils/of)
 endif
 
 # call the project makefile!

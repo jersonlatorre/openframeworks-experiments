@@ -8,7 +8,7 @@
 #   The location of your root openFrameworks installation
 #       (default) OF_ROOT = ../../.. 
 ################################################################################
-OF_ROOT = /opt/of
+OF_ROOT = /Users/jerson/Documents/utils/of
 
 ################################################################################
 # PROJECT ROOT
