@@ -3,6 +3,8 @@
 //--------------------------------------------------------------
 void ofApp::setup()
 {
+  ofSetVerticalSync(false);
+  ofSetFrameRate(60);
   ofEnableDepthTest();
   ofEnableAntiAliasing();
   ofBackground(255);
@@ -14,7 +16,6 @@ void ofApp::setup()
 //--------------------------------------------------------------
 void ofApp::update()
 {
-
   for (int i = 0; i < N; i++)
   {
     drawers[i].update();

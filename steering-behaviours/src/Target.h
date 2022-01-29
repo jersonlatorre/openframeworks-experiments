@@ -5,5 +5,4 @@
 
 class Target : public ofSpherePrimitive, public ofAgent
 {
-	
 };
